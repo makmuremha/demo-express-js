@@ -1,0 +1,14 @@
+### get all courses
+GET http://localhost:3000/api/courses
+
+
+### create a course
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{
+    "courseName": "course name"
+}
+
+### get a course
+GET http://localhost:3000/api/courses/34
